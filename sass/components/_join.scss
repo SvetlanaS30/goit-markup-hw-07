@@ -1,8 +1,11 @@
-.join__text {
-  font-size: 14px;
-  line-height: 1.14;
-  color: $primery-white-color;
-  text-transform: uppercase;
+// .join__text {
+//   font-size: 14px;
+//   line-height: 1.14;
+//   color: $primery-white-color;
+//   text-transform: uppercase;
 
-  margin-bottom: 20px;
+//   margin-bottom: 20px;
+// }
+.join__text {
+  @extend %footer__text;
 }

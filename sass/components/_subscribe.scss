@@ -1,10 +1,5 @@
 .subscribe__text {
-  font-size: 14px;
-  line-height: 1.14;
-  color: $primery-white-color;
-  text-transform: uppercase;
-
-  margin-bottom: 20px;
+  @extend %footer__text;
 }
 
 .subscribe__field {
@@ -30,30 +25,12 @@
   }
 }
 .subscribe__button {
+  @extend %button;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 200px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  border-radius: 4px;
   margin-left: 12px;
-  border: transparent;
-  color: $primery-white-color;
-  background-color: $accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  cursor: pointer;
-
-  letter-spacing: 0.06em;
-  transition: background-color 250ms $transition-function, color 250ms $transition-function;
-  &:hover,
-  &:focus {
-    background-color: #188ce8;
-    color: $primery-white-color;
-  }
 }
 .subscribe__icon {
   fill: currentColor;
