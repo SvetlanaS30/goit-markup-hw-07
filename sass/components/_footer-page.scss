@@ -1,0 +1,24 @@
+.footer-page {
+  max-width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-page__container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-page__address {
+  margin-right: 70px;
+  flex-grow: 1;
+}
+.footer-page__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.footer-page__subscribe {
+  margin-left: 93px;
+}
