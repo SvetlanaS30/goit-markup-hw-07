@@ -2,11 +2,11 @@
 @import "./utils/variables";
 @import "./base/reset";
 @import "./utils/placeholders";
-// @import "./base/normolize";
 @import "./shared/container";
 @import "./shared/section";
 @import "./utils/visually-hidden";
 @import "./components/page-header";
+@import "./components/navigation";
 @import "./shared/logo";
 @import "./components/site-nav";
 @import "./components/contacts";
@@ -25,3 +25,6 @@
 @import "./components/modal";
 @import "./components/form";
 @import "./components/checkbox";
+@import "./components/filter";
+@import "./components/gallery";
+@import "./components/card";

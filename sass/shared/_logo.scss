@@ -7,10 +7,10 @@
   line-height: 1.19;
 
   text-decoration: none;
-  &--accent-black {
+  &__black {
     color: #000000;
   }
-  &--accent-white {
+  &__light {
     color: $primery-white-color;
   }
 }
